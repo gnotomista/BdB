@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.gennaro.bdb.KeyboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" >
+
+    <com.example.gennaro.bdb.TouchView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/touch_view"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="#336699"
+        android:alpha=".2" />
+
+    <com.example.gennaro.bdb.ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="50dp"
+        android:layout_height="250dp"
+        android:layout_alignTop="@+id/touch_view"
+        android:layout_toRightOf="@+id/touch_view"
+        android:background="#336699"
+        android:alpha=".4" />
+
+    <com.example.gennaro.bdb.VerticalSeekBar
+        android:layout_width="50dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:id="@+id/mouse_sensitivity_seekbar"
+        android:progress="50"
+        android:layout_toLeftOf="@+id/touch_view"
+        android:layout_alignTop="@+id/touch_view" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/left_mouse_button"
+        android:height="50dp"
+        android:width="80dp"
+        android:layout_alignTop="@+id/touch_view"
+        android:layout_alignStart="@+id/touch_view"
+        android:onClick="onLeftMouseButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/center_mouse_button"
+        android:height="50dp"
+        android:width="80dp"
+        android:layout_alignTop="@+id/touch_view"
+        android:layout_centerInParent="true"
+        android:onClick="onMiddleMouseButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/right_mouse_button"
+        android:height="50dp"
+        android:width="80dp"
+        android:layout_alignTop="@+id/touch_view"
+        android:layout_alignEnd="@+id/touch_view"
+        android:onClick="onRightMouseButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tap_keyboard_text"
+        android:text="Tap to show keyboard"
+        android:height="30dp"
+        android:width="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:layout_centerHorizontal="true" />
+
+</com.example.gennaro.bdb.KeyboardLayout>

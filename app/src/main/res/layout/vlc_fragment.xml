@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/play_pause"
+        android:id="@+id/play_pause_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:height="100dp"
+        android:width="100dp"
+        android:onClick="onPlayPause" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/stop"
+        android:id="@+id/stop_button"
+        android:height="100dp"
+        android:width="100dp"
+        android:layout_below="@+id/play_pause_button"
+        android:layout_centerHorizontal="true"
+        android:onClick="onStop" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/faster"
+        android:id="@+id/faster_button"
+        android:height="100dp"
+        android:width="100dp"
+        android:layout_alignTop="@+id/play_pause_button"
+        android:layout_toRightOf="@+id/play_pause_button"
+        android:onClick="onFaster" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/slower"
+        android:id="@+id/slower_button"
+        android:height="100dp"
+        android:width="100dp"
+        android:layout_alignTop="@+id/play_pause_button"
+        android:layout_toLeftOf="@+id/play_pause_button"
+        android:onClick="onSlower" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/next"
+        android:id="@+id/next_button"
+        android:height="100dp"
+        android:width="100dp"
+        android:layout_alignTop="@+id/stop_button"
+        android:layout_toRightOf="@+id/stop_button"
+        android:onClick="onNext" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/previous"
+        android:id="@+id/previous_button"
+        android:height="100dp"
+        android:width="100dp"
+        android:layout_alignTop="@+id/stop_button"
+        android:layout_toLeftOf="@+id/stop_button"
+        android:onClick="onPrevious" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/volume_up"
+        android:id="@+id/volume_up_button"
+        android:height="100dp"
+        android:width="100dp"
+        android:layout_below="@+id/previous_button"
+        android:layout_alignStart="@+id/previous_button"
+        android:onClick="onVolumeUp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/volume_down"
+        android:id="@+id/volume_down_button"
+        android:height="100dp"
+        android:width="100dp"
+        android:layout_alignTop="@+id/volume_up_button"
+        android:layout_toEndOf="@+id/volume_up_button"
+        android:onClick="onVolumeDown" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/mute"
+        android:id="@+id/mute_button"
+        android:height="100dp"
+        android:width="100dp"
+        android:layout_alignTop="@+id/volume_down_button"
+        android:layout_toEndOf="@+id/volume_down_button"
+        android:onClick="onMute" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/full_screen"
+        android:id="@+id/fullscreen_button"
+        android:height="100dp"
+        android:width="100dp"
+        android:layout_below="@+id/volume_up_button"
+        android:layout_alignStart="@+id/volume_up_button"
+        android:onClick="onFullScreen" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/exit_full_screen"
+        android:id="@+id/exit_fullscreen_button"
+        android:height="100dp"
+        android:width="100dp"
+        android:layout_alignTop="@+id/fullscreen_button"
+        android:layout_toEndOf="@+id/fullscreen_button"
+        android:onClick="onExitFullScreen" />
+</RelativeLayout>

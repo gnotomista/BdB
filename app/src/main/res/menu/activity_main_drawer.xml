@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_presentation"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Presentation" />
+        <item
+            android:id="@+id/nav_vlc"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="VLC" />
+        <item
+            android:id="@+id/nav_mouse_keyboard"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Mouse/Keyboard" />
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="test" />
+    </group>
+
+    <item android:title="Setup connection">
+        <menu>
+            <item
+                android:id="@+id/nav_connect"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Connect" />
+        </menu>
+    </item>
+
+</menu>

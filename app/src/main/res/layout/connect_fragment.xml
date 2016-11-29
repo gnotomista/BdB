@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IP"
+        android:id="@+id/text_ip"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ip"
+        android:inputType="number|numberDecimal"
+        android:digits="0123456789."
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="150dp"
+        android:text="10.42.0.1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="port"
+        android:id="@+id/text_port"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/port"
+        android:inputType="number|numberDecimal"
+        android:digits="0123456789."
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="150dp"
+        android:text="1846" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect"
+        android:id="@+id/button_connect"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="40dp"
+        android:onClick="onConnectClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disconnect"
+        android:id="@+id/button_disconnect"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="210dp"
+        android:onClick="onDisconnectClick" />
+
+</RelativeLayout>
