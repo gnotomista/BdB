@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.example.gennaro.bdb.KeyboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent" >
+<!--<com.example.gennaro.bdb.KeyboardLayout-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
 
     <com.example.gennaro.bdb.TouchView
         android:layout_width="250dp"
@@ -64,11 +67,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tap_keyboard_text"
-        android:text="Tap to show keyboard"
-        android:height="30dp"
+        android:text="Tap here to show the\nprogrammer keyboard"
+        android:height="40dp"
         android:width="150dp"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="80dp"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
 
-</com.example.gennaro.bdb.KeyboardLayout>
+    <com.example.gennaro.bdb.KeyboardViewFix
+        android:id="@+id/keyboard_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="gone" />
+
+</RelativeLayout>
+<!--</com.example.gennaro.bdb.KeyboardLayout>-->
