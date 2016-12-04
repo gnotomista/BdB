@@ -13,6 +13,10 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.TextView;
 
+import org.xmlpull.v1.XmlPullParserException;
+
+import java.io.IOException;
+
 public class MouseKeyboardFragment extends Fragment {
 
     ProgKeyboard progKeyboard;
@@ -56,7 +60,11 @@ public class MouseKeyboardFragment extends Fragment {
     public void onStart() {
         super.onStart();
 
-        progKeyboard = new ProgKeyboard(this, R.id.keyboard_view, R.xml.prog_keyboard_qwerty);
+        try {
+            progKeyboard = new ProgKeyboard(this, R.id.keyboard_view, R.xml.prog_keyboard_qwerty);
+        } catch (XmlPullParserException | IOException e) {
+
+        }
 
         TextView textView = (TextView) ((Activity)getContext()).findViewById(R.id.tap_keyboard_text);
         textView.setOnClickListener(new View.OnClickListener() {

@@ -224,4 +224,6 @@ public class MainActivity extends AppCompatActivity
         tcpClient.send("scroll_down_mouse_button");
     }
 
+    public static void sendString(String string) { tcpClient.send(string); }
+
 }

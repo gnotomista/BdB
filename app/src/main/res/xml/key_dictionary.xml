@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<key_dictonary>
+    <key>
+        <key_code>1</key_code>
+        <key_char>a</key_char>
+    </key>
+    <key>
+        <key_code>2</key_code>
+        <key_char>b</key_char>
+    </key>
+    <key>
+        <key_code>3</key_code>
+        <key_char>c</key_char>
+    </key>
+    <key>
+        <key_code>4</key_code>
+        <key_char>b</key_char>
+    </key>
+    <key>
+        <key_code>5</key_code>
+        <key_char>Ab</key_char>
+    </key>
+    <key>
+        <key_code>6</key_code>
+        <key_char>A^b</key_char>
+    </key>
+    <key>
+        <key_code>-1846</key_code>
+        <key_char>Ctrl</key_char>
+    </key>
+    <key>
+        <key_code>-3692</key_code>
+        <key_char>Alt</key_char>
+    </key>
+    <key>
+        <key_code>-5538</key_code>
+        <key_char>Shift</key_char>
+    </key>
+</key_dictonary>
