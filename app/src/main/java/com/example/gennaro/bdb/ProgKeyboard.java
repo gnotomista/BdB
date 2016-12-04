@@ -11,6 +11,7 @@ import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -18,7 +19,7 @@ public class ProgKeyboard {
 
     private KeyboardView keyboardView;
     private String keyCodeString = "";
-    private Map<Integer, String> pressedKey = new HashMap<>();
+    private Map<Integer, ArrayList<String>> pressedKey = new HashMap<>();
     XmlPullParser parser;
 
     private KeyboardView.OnKeyboardActionListener onKeyboardActionListener = new KeyboardView.OnKeyboardActionListener() {
@@ -73,7 +74,7 @@ public class ProgKeyboard {
         activity.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 
         try {
-            parser = activity.getResources().getXml(R.xml.key_dictionary);
+            parser = activity.getResources().getXml(R.xml.prog_keyboard_qwerty);
             pressedKey = parseXML(parser);
         } catch (XmlPullParserException | IOException e) {
             System.out.println(e);
@@ -97,21 +98,21 @@ public class ProgKeyboard {
     }
 
     private void decodeAndSend(int keyCode) {
-        //System.out.println(keyCode);
-        //System.out.println(pressedKey.get(keyCode));
+        ArrayList<String> keyLabelChar = pressedKey.get(keyCode);
         if (keyCode < 0) {
-            keyCodeString = pressedKey.get(keyCode) + "+";
+            keyCodeString = keyLabelChar.get(1) + "+";
         } else {
-            keyCodeString += pressedKey.get(keyCode);
+            keyCodeString += keyLabelChar.get(1);
             MainActivity.sendString(keyCodeString);
             keyCodeString = "";
         }
     }
 
-    private Map<Integer, String> parseXML(XmlPullParser parser) throws XmlPullParserException,IOException {
-        Map<Integer, String> map = new HashMap<>();
-        Integer keyCode = null;
-        String keyChar = null;
+    private Map<Integer, ArrayList<String>> parseXML(XmlPullParser parser) throws XmlPullParserException,IOException {
+        Map<Integer, ArrayList<String>> map = new HashMap<>();
+        Integer keyCode;
+        String keyLabel;
+        String keyChar;
         int eventType = parser.next();
         while (eventType != XmlPullParser.END_DOCUMENT) {
             String name;
@@ -120,17 +121,17 @@ public class ProgKeyboard {
                     break;
                 case XmlPullParser.START_TAG:
                     name = parser.getName();
-                    if (name.equalsIgnoreCase("key_code")) {
-                        keyCode = Integer.parseInt(parser.nextText());
-                    } else if (name.equalsIgnoreCase("key_char")) {
+                    if (name.equalsIgnoreCase("Key")){
+                        ArrayList<String> keyLabelChar = new ArrayList<>();
+                        keyCode = Integer.parseInt(parser.getAttributeValue("http://schemas.android.com/apk/res/android","codes"));
+                        keyLabel = parser.getAttributeValue("http://schemas.android.com/apk/res/android","keyLabel");
                         keyChar = parser.nextText();
+                        keyLabelChar.add(keyLabel);
+                        keyLabelChar.add(keyChar);
+                        map.put(keyCode, keyLabelChar);
                     }
                     break;
                 case XmlPullParser.END_TAG:
-                    name = parser.getName();
-                    if (name.equalsIgnoreCase("key")) {
-                        map.put(keyCode, keyChar);
-                    }
                     break;
                 default:
                     break;

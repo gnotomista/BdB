@@ -4,36 +4,36 @@
     android:keyHeight="10%p" >
 
     <Row>
-        <Key android:codes="55"    android:keyLabel="7" android:keyEdgeFlags="left" />
-        <Key android:codes="56"    android:keyLabel="8" />
-        <Key android:codes="57"    android:keyLabel="9" android:horizontalGap="6.25%p" />
-        <Key android:codes="1"    android:keyLabel="A"  android:popupKeyboard="@xml/popup" />
-        <Key android:codes="2"    android:keyLabel="B" android:horizontalGap="6.25%p" />
-        <Key android:codes="-3692"    android:keyLabel="alt" android:isRepeatable="true" />
-        <Key android:codes="-1846" android:keyLabel="ctrl" android:keyEdgeFlags="right"/>
+        <Key android:codes="55"    android:keyLabel="7" android:keyEdgeFlags="left">7</Key>
+        <Key android:codes="56"    android:keyLabel="8">8</Key>
+        <Key android:codes="57"    android:keyLabel="9" android:horizontalGap="6.25%p">9</Key>
+        <Key android:codes="1"    android:keyLabel="A"  android:popupKeyboard="@xml/popup">a</Key>
+        <Key android:codes="2"    android:keyLabel="B" android:horizontalGap="6.25%p">b</Key>
+        <Key android:codes="-3692"    android:keyLabel="alt" android:isRepeatable="true">alt</Key>
+        <Key android:codes="-1846" android:keyLabel="ctrl" android:keyEdgeFlags="right">ctrl</Key>
     </Row>
     <Row>
-        <Key android:codes="52"    android:keyLabel="4" android:keyEdgeFlags="left"  />
-        <Key android:codes="53"    android:keyLabel="5" />
-        <Key android:codes="54"    android:keyLabel="6" android:horizontalGap="6.25%p"/>
-        <Key android:codes="3"    android:keyLabel="C" />
-        <Key android:codes="68"    android:keyLabel="D" android:horizontalGap="6.25%p" />
-        <Key android:codes="55002" android:keyLabel="left" android:isRepeatable="true" />
-        <Key android:codes="55003" android:keyLabel="right" android:isRepeatable="true" android:keyEdgeFlags="right" />
+        <Key android:codes="52"    android:keyLabel="4" android:keyEdgeFlags="left">4</Key>
+        <Key android:codes="53"    android:keyLabel="5">5</Key>
+        <Key android:codes="54"    android:keyLabel="6" android:horizontalGap="6.25%p">6</Key>
+        <Key android:codes="3"    android:keyLabel="C">c</Key>
+        <Key android:codes="68"    android:keyLabel="D" android:horizontalGap="6.25%p">d</Key>
+        <Key android:codes="55002" android:keyLabel="left" android:isRepeatable="true">left</Key>
+        <Key android:codes="55003" android:keyLabel="right" android:isRepeatable="true" android:keyEdgeFlags="right">right</Key>
     </Row>
     <Row>
-        <Key android:codes="49"    android:keyLabel="1"  android:keyEdgeFlags="left" />
-        <Key android:codes="50"    android:keyLabel="2" />
-        <Key android:codes="51"    android:keyLabel="3" android:horizontalGap="6.25%p"/>
-        <Key android:codes="69"    android:keyLabel="E" />
-        <Key android:codes="70"    android:keyLabel="F" android:horizontalGap="6.25%p" />
-        <Key android:codes="55001" android:keyLabel="allleft" />
-        <Key android:codes="55004" android:keyLabel="allright" android:keyEdgeFlags="right" />
+        <Key android:codes="49"    android:keyLabel="1"  android:keyEdgeFlags="left">1</Key>
+        <Key android:codes="50"    android:keyLabel="2">2</Key>
+        <Key android:codes="51"    android:keyLabel="3" android:horizontalGap="6.25%p">3</Key>
+        <Key android:codes="69"    android:keyLabel="E">e</Key>
+        <Key android:codes="70"    android:keyLabel="F" android:horizontalGap="6.25%p">f</Key>
+        <Key android:codes="55001" android:keyLabel="allleft">allleft</Key>
+        <Key android:codes="55004" android:keyLabel="allright" android:keyEdgeFlags="right">allright</Key>
     </Row>
     <Row>
-        <Key android:codes="48"    android:keyLabel="0" android:keyWidth="25%p" android:horizontalGap="6.25%p" android:keyEdgeFlags="left" />
-        <Key android:codes="-5538" android:keyLabel="shift" android:keyWidth="25%p" android:horizontalGap="12.50%p" />
-        <Key android:codes="55000" android:keyLabel="PREV" android:horizontalGap="6.25%p" />
-        <Key android:codes="55005" android:keyLabel="NEXT" android:keyEdgeFlags="right" />
+        <Key android:codes="48"    android:keyLabel="0" android:keyWidth="25%p" android:horizontalGap="6.25%p" android:keyEdgeFlags="left">0</Key>
+        <Key android:codes="-5538" android:keyLabel="shift" android:keyWidth="25%p" android:horizontalGap="12.50%p">shift</Key>
+        <Key android:codes="55000" android:keyLabel="PREV" android:horizontalGap="6.25%p">prev</Key>
+        <Key android:codes="55005" android:keyLabel="NEXT" android:keyEdgeFlags="right">next</Key>
     </Row>
 </Keyboard>
