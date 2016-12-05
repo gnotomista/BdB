@@ -68,7 +68,7 @@ public class ProgKeyboard {
         Activity activity = (Activity)fragment.getContext();
         keyboardView = (KeyboardView)(activity.findViewById(viewid));
         keyboardView.setKeyboard(new Keyboard(activity, layoutid));
-        keyboardView.setPreviewEnabled(false); // NOTE Do not show the preview balloons
+        keyboardView.setPreviewEnabled(true);
         keyboardView.setOnKeyboardActionListener(onKeyboardActionListener);
         // Hide the standard keyboard initially
         activity.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
