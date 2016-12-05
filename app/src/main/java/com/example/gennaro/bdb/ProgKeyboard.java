@@ -35,7 +35,7 @@ public class ProgKeyboard {
 
         @Override
         public void onKey(int i, int[] ints) {
-            decodeAndSend(i);
+            decodeAndSend(i, ints);
         }
 
         @Override
@@ -97,12 +97,12 @@ public class ProgKeyboard {
         keyboardView.setEnabled(false);
     }
 
-    private void decodeAndSend(int keyCode) {
-        ArrayList<String> keyLabelChar = pressedKey.get(keyCode);
+    private void decodeAndSend(int keyCode, int[] allKeyCodes) {
+        String keyChar = (pressedKey.get(keyCode)).get(1);
         if (keyCode < 0) {
-            keyCodeString = keyLabelChar.get(1) + "+";
+            keyCodeString = keyChar + "+";
         } else {
-            keyCodeString += keyLabelChar.get(1);
+            keyCodeString += keyChar;
             MainActivity.sendString(keyCodeString);
             keyCodeString = "";
         }

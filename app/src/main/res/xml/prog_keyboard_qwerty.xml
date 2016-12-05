@@ -1,40 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
-    android:keyWidth="20%p"
-    android:keyHeight="10%p" >
+    android:keyWidth="10%p"
+    android:keyHeight="5%p" >
 
     <Row>
-        <Key android:codes="100" android:keyLabel="100" android:keyEdgeFlags="left">100</Key>
-        <Key android:codes="101" android:keyLabel="101">101</Key>
-        <Key android:codes="102" android:keyLabel="102">102</Key>
-        <Key android:codes="103" android:keyLabel="103">103</Key>
-        <Key android:codes="104" android:keyLabel="104">104</Key>
-        <Key android:codes="105" android:keyLabel="105">105</Key>
-        <Key android:codes="106" android:keyLabel="106">106</Key>
-        <Key android:codes="107" android:keyLabel="107">107</Key>
-        <Key android:codes="108" android:keyLabel="108">108</Key>
-        <Key android:codes="109" android:keyLabel="109">109</Key>
-        <Key android:codes="110" android:keyLabel="110">110</Key>
-        <Key android:codes="111" android:keyLabel="111">111</Key>
-        <Key android:codes="112" android:keyLabel="112">112</Key>
-        <Key android:codes="113" android:keyLabel="113" android:keyEdgeFlags="right">113</Key>
+        <Key android:codes="1" android:keyLabel="1" android:keyEdgeFlags="left">1</Key>
+        <Key android:codes="2" android:keyLabel="2">2</Key>
+        <Key android:codes="3" android:keyLabel="3">3</Key>
+        <Key android:codes="4" android:keyLabel="4">4</Key>
+        <Key android:codes="5" android:keyLabel="5">5</Key>
+        <Key android:codes="6" android:keyLabel="6">6</Key>
+        <Key android:codes="7" android:keyLabel="7">7</Key>
+        <Key android:codes="8" android:keyLabel="8">8</Key>
+        <Key android:codes="9" android:keyLabel="9">9</Key>
+        <Key android:codes="10" android:keyLabel="0">0</Key>
+        <Key android:codes="11" android:keyLabel="-">-</Key>
+        <Key android:codes="12" android:keyLabel="=">=</Key>
+        <Key android:codes="13" android:keyIcon="@mipmap/backspace" android:keyEdgeFlags="right">BackSpace</Key>
     </Row>
     <Row>
-        <Key android:codes="200" android:keyLabel="200" android:keyEdgeFlags="left">200</Key>
-        <Key android:codes="201" android:keyLabel="201">201</Key>
-        <Key android:codes="202" android:keyLabel="202">202</Key>
-        <Key android:codes="203" android:keyLabel="203">203</Key>
-        <Key android:codes="204" android:keyLabel="204">204</Key>
-        <Key android:codes="205" android:keyLabel="205">205</Key>
-        <Key android:codes="206" android:keyLabel="206">206</Key>
-        <Key android:codes="207" android:keyLabel="207">207</Key>
-        <Key android:codes="208" android:keyLabel="208">208</Key>
-        <Key android:codes="209" android:keyLabel="209" android:keyEdgeFlags="right">209</Key>
+        <Key android:codes="100" android:keyLabel="q" android:keyEdgeFlags="left">q</Key>
+        <Key android:codes="101" android:keyLabel="w">w</Key>
+        <Key android:codes="102" android:keyLabel="e">e</Key>
+        <Key android:codes="103" android:keyLabel="r">r</Key>
+        <Key android:codes="104" android:keyLabel="t">t</Key>
+        <Key android:codes="105" android:keyLabel="y">y</Key>
+        <Key android:codes="106" android:keyLabel="u">u</Key>
+        <Key android:codes="107" android:keyLabel="i">i</Key>
+        <Key android:codes="108" android:keyLabel="o">o</Key>
+        <Key android:codes="109" android:keyLabel="p">p</Key>
+        <Key android:codes="110" android:keyLabel="[">[</Key>
+        <Key android:codes="111" android:keyLabel="]">]</Key>
+        <Key android:codes="112" android:keyLabel="\\\" android:keyEdgeFlags="right">\</Key>
     </Row>
     <Row>
-        <Key android:codes="300" android:keyLabel="300" android:keyEdgeFlags="left" android:horizontalGap="10%p">300</Key>
-        <Key android:codes="301" android:keyLabel="301">301</Key>
-        <Key android:codes="302" android:keyLabel="302">302</Key>
-        <Key android:codes="303" android:keyLabel="303" android:keyEdgeFlags="right">303</Key>
+        <Key android:codes="200" android:keyLabel="a" android:keyEdgeFlags="left">a</Key>
+        <Key android:codes="201" android:keyLabel="s">s</Key>
+        <Key android:codes="202" android:keyLabel="d">d</Key>
+        <Key android:codes="203" android:keyLabel="f">f</Key>
+        <Key android:codes="204" android:keyLabel="g">g</Key>
+        <Key android:codes="205" android:keyLabel="h">h</Key>
+        <Key android:codes="206" android:keyLabel="j">j</Key>
+        <Key android:codes="207" android:keyLabel="k">k</Key>
+        <Key android:codes="208" android:keyLabel="l">l</Key>
+        <Key android:codes="209" android:keyLabel=";">;</Key>
+        <Key android:codes="210" android:keyLabel="'">'</Key>
+        <Key android:codes="211" android:keyLabel="Enter" android:keyEdgeFlags="right">Return</Key>
+    </Row>
+    <Row>
+        <Key android:codes="300" android:keyLabel="z" android:keyEdgeFlags="left">z</Key>
+        <Key android:codes="301" android:keyLabel="x">x</Key>
+        <Key android:codes="302" android:keyLabel="c">c</Key>
+        <Key android:codes="303" android:keyLabel="v">v</Key>
+        <Key android:codes="304" android:keyLabel="b">b</Key>
+        <Key android:codes="305" android:keyLabel="n">n</Key>
+        <Key android:codes="306" android:keyLabel="m">m</Key>
+        <Key android:codes="307" android:keyLabel=",">,</Key>
+        <Key android:codes="308" android:keyLabel=".">.</Key>
+        <Key android:codes="309" android:keyLabel="/">/</Key>
+        <Key android:codes="-310" android:keyLabel="Shift" android:keyEdgeFlags="right">Shift</Key>
     </Row>
 </Keyboard>
