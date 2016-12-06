@@ -31,20 +31,20 @@ public class ProgKeyboardView extends KeyboardView {
         super(inEditMode ? new ContextWrapperInner(context) : context, attrs);
     }
 
-    @Override
-    public void onDraw(Canvas canvas) {
-        super.onDraw(canvas);
-
-        paint.setTextAlign(Paint.Align.CENTER);
-        paint.setTextSize(25);
-        paint.setColor(Color.parseColor("#E95420"));
-
-        List<Keyboard.Key> keys = getKeyboard().getKeys();
-        for(Keyboard.Key key: keys) {
-            if(key.label != null)
-                canvas.drawText(key.label.toString(), key.x + (key.width/3), key.y + (key.height/3), paint);
-        }
-    }
+//    @Override
+//    public void onDraw(Canvas canvas) {
+//        super.onDraw(canvas);
+//
+//        paint.setTextAlign(Paint.Align.CENTER);
+//        paint.setTextSize(25);
+//        paint.setColor(Color.parseColor("#E95420"));
+//
+//        List<Keyboard.Key> keys = getKeyboard().getKeys();
+//        for(Keyboard.Key key: keys) {
+//            if(key.label != null)
+//                canvas.drawText(key.label.toString(), key.x + (key.width/3), key.y + (key.height/3), paint);
+//        }
+//    }
 
     public static class ContextWrapperInner extends ContextWrapper {
         Context base;

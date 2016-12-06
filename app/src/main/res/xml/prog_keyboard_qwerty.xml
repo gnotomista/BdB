@@ -1,63 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
-    android:keyWidth="10%p"
+    android:keyWidth="20%p"
     android:keyHeight="5%p" >
 
     <Row>
-        <Key android:codes="1" android:keyLabel="1" android:keyEdgeFlags="left">1</Key>
-        <Key android:codes="2" android:keyLabel="2">2</Key>
-        <Key android:codes="3" android:keyLabel="3">3</Key>
-        <Key android:codes="4" android:keyLabel="4">4</Key>
-        <Key android:codes="5" android:keyLabel="5">5</Key>
-        <Key android:codes="6" android:keyLabel="6">6</Key>
-        <Key android:codes="7" android:keyLabel="7">7</Key>
-        <Key android:codes="8" android:keyLabel="8">8</Key>
-        <Key android:codes="9" android:keyLabel="9">9</Key>
-        <Key android:codes="10" android:keyLabel="0">0</Key>
-        <Key android:codes="11" android:keyLabel="-">-</Key>
-        <Key android:codes="12" android:keyLabel="=">=</Key>
-        <Key android:codes="13" android:keyIcon="@mipmap/backspace" android:keyEdgeFlags="right">BackSpace</Key>
+        <Key android:codes="1" android:keyLabel="Esc" android:keyEdgeFlags="left" android:isRepeatable="true">Escape</Key>
+        <Key android:codes="2" android:keyLabel="F1" android:isRepeatable="true">F1</Key>
+        <Key android:codes="3" android:keyLabel="F2" android:isRepeatable="true">F2</Key>
+        <Key android:codes="4" android:keyLabel="F3" android:isRepeatable="true">F3</Key>
+        <Key android:codes="5" android:keyLabel="F4" android:isRepeatable="true">F4</Key>
+        <Key android:codes="6" android:keyLabel="F5" android:isRepeatable="true">F5</Key>
+        <Key android:codes="7" android:keyLabel="F6" android:isRepeatable="true">F6</Key>
+        <Key android:codes="8" android:keyLabel="F7" android:isRepeatable="true">F7</Key>
+        <Key android:codes="9" android:keyLabel="F8" android:isRepeatable="true">F8</Key>
+        <Key android:codes="10" android:keyLabel="F9" android:isRepeatable="true">F9</Key>
+        <Key android:codes="11" android:keyLabel="F10" android:isRepeatable="true">F10</Key>
+        <Key android:codes="12" android:keyLabel="F11" android:isRepeatable="true">F11</Key>
+        <Key android:codes="13" android:keyLabel="F12" android:isRepeatable="true">F12</Key>
+        <Key android:codes="14" android:keyLabel="del" android:keyEdgeFlags="right" android:isRepeatable="true">Delete</Key>
     </Row>
     <Row>
-        <Key android:codes="100" android:keyLabel="q" android:keyEdgeFlags="left">q</Key>
-        <Key android:codes="101" android:keyLabel="w">w</Key>
-        <Key android:codes="102" android:keyLabel="e">e</Key>
-        <Key android:codes="103" android:keyLabel="r">r</Key>
-        <Key android:codes="104" android:keyLabel="t">t</Key>
-        <Key android:codes="105" android:keyLabel="y">y</Key>
-        <Key android:codes="106" android:keyLabel="u">u</Key>
-        <Key android:codes="107" android:keyLabel="i">i</Key>
-        <Key android:codes="108" android:keyLabel="o">o</Key>
-        <Key android:codes="109" android:keyLabel="p">p</Key>
-        <Key android:codes="110" android:keyLabel="[">[</Key>
-        <Key android:codes="111" android:keyLabel="]">]</Key>
-        <Key android:codes="112" android:keyLabel="\\\" android:keyEdgeFlags="right">\</Key>
+        <Key android:codes="101" android:keyLabel="`" android:keyEdgeFlags="left" android:isRepeatable="true">`</Key>
+        <Key android:codes="102" android:keyLabel="1" android:isRepeatable="true">1</Key>
+        <Key android:codes="103" android:keyLabel="2" android:isRepeatable="true">2</Key>
+        <Key android:codes="104" android:keyLabel="3" android:isRepeatable="true">3</Key>
+        <Key android:codes="105" android:keyLabel="4" android:isRepeatable="true">4</Key>
+        <Key android:codes="106" android:keyLabel="5" android:isRepeatable="true">5</Key>
+        <Key android:codes="107" android:keyLabel="6" android:isRepeatable="true">6</Key>
+        <Key android:codes="108" android:keyLabel="7" android:isRepeatable="true">7</Key>
+        <Key android:codes="109" android:keyLabel="8" android:isRepeatable="true">8</Key>
+        <Key android:codes="110" android:keyLabel="9" android:isRepeatable="true">9</Key>
+        <Key android:codes="111" android:keyLabel="0" android:isRepeatable="true">0</Key>
+        <Key android:codes="112" android:keyLabel="-" android:isRepeatable="true">minus</Key>
+        <Key android:codes="113" android:keyLabel="=" android:isRepeatable="true">equal</Key>
+        <Key android:codes="114" android:keyIcon="@mipmap/backspace" android:keyEdgeFlags="right" android:isRepeatable="true">BackSpace</Key>
     </Row>
     <Row>
-        <Key android:codes="200" android:keyLabel="a" android:keyEdgeFlags="left">a</Key>
-        <Key android:codes="201" android:keyLabel="s">s</Key>
-        <Key android:codes="202" android:keyLabel="d">d</Key>
-        <Key android:codes="203" android:keyLabel="f">f</Key>
-        <Key android:codes="204" android:keyLabel="g">g</Key>
-        <Key android:codes="205" android:keyLabel="h">h</Key>
-        <Key android:codes="206" android:keyLabel="j">j</Key>
-        <Key android:codes="207" android:keyLabel="k">k</Key>
-        <Key android:codes="208" android:keyLabel="l">l</Key>
-        <Key android:codes="209" android:keyLabel=";">;</Key>
-        <Key android:codes="210" android:keyLabel="'">'</Key>
-        <Key android:codes="211" android:keyLabel="Enter" android:keyEdgeFlags="right">Return</Key>
+        <Key android:codes="201" android:keyLabel="tab" android:keyEdgeFlags="left" android:isRepeatable="true">Tab</Key>
+        <Key android:codes="202" android:keyLabel="q" android:isRepeatable="true">q</Key>
+        <Key android:codes="203" android:keyLabel="w" android:isRepeatable="true">w</Key>
+        <Key android:codes="204" android:keyLabel="e" android:isRepeatable="true">e</Key>
+        <Key android:codes="205" android:keyLabel="r" android:isRepeatable="true">r</Key>
+        <Key android:codes="206" android:keyLabel="t" android:isRepeatable="true">t</Key>
+        <Key android:codes="207" android:keyLabel="y" android:isRepeatable="true">y</Key>
+        <Key android:codes="208" android:keyLabel="u" android:isRepeatable="true">u</Key>
+        <Key android:codes="209" android:keyLabel="i" android:isRepeatable="true">i</Key>
+        <Key android:codes="210" android:keyLabel="o" android:isRepeatable="true">o</Key>
+        <Key android:codes="211" android:keyLabel="p" android:isRepeatable="true">p</Key>
+        <Key android:codes="212" android:keyLabel="[" android:isRepeatable="true">[</Key>
+        <Key android:codes="213" android:keyLabel="]" android:isRepeatable="true">]</Key>
+        <Key android:codes="214" android:keyLabel="\\\" android:keyEdgeFlags="right" android:isRepeatable="true">\</Key>
     </Row>
     <Row>
-        <Key android:codes="300" android:keyLabel="z" android:keyEdgeFlags="left">z</Key>
-        <Key android:codes="301" android:keyLabel="x">x</Key>
-        <Key android:codes="302" android:keyLabel="c">c</Key>
-        <Key android:codes="303" android:keyLabel="v">v</Key>
-        <Key android:codes="304" android:keyLabel="b">b</Key>
-        <Key android:codes="305" android:keyLabel="n">n</Key>
-        <Key android:codes="306" android:keyLabel="m">m</Key>
-        <Key android:codes="307" android:keyLabel=",">,</Key>
-        <Key android:codes="308" android:keyLabel=".">.</Key>
-        <Key android:codes="309" android:keyLabel="/">/</Key>
-        <Key android:codes="-310" android:keyLabel="Shift" android:keyEdgeFlags="right">Shift</Key>
+        <Key android:codes="301" android:keyLabel="caps" android:keyEdgeFlags="left" android:isRepeatable="true" android:isSticky="true">caps</Key>
+        <Key android:codes="302" android:keyLabel="a" android:isRepeatable="true">a</Key>
+        <Key android:codes="303" android:keyLabel="s" android:isRepeatable="true">s</Key>
+        <Key android:codes="304" android:keyLabel="d" android:isRepeatable="true">d</Key>
+        <Key android:codes="305" android:keyLabel="f" android:isRepeatable="true">f</Key>
+        <Key android:codes="306" android:keyLabel="g" android:isRepeatable="true">g</Key>
+        <Key android:codes="307" android:keyLabel="h" android:isRepeatable="true">h</Key>
+        <Key android:codes="308" android:keyLabel="j" android:isRepeatable="true">j</Key>
+        <Key android:codes="309" android:keyLabel="k" android:isRepeatable="true">k</Key>
+        <Key android:codes="310" android:keyLabel="l" android:isRepeatable="true">l</Key>
+        <Key android:codes="311" android:keyLabel=";" android:isRepeatable="true">;</Key>
+        <Key android:codes="312" android:keyLabel="'" android:isRepeatable="true">'</Key>
+        <Key android:codes="313" android:keyLabel="Enter" android:keyEdgeFlags="right" android:isRepeatable="true">Return</Key>
+    </Row>
+    <Row>
+        <Key android:codes="-401" android:keyLabel="shift" android:keyEdgeFlags="left" android:isRepeatable="true">Shift</Key>
+        <Key android:codes="402" android:keyLabel="z" android:isRepeatable="true">z</Key>
+        <Key android:codes="403" android:keyLabel="x" android:isRepeatable="true">x</Key>
+        <Key android:codes="404" android:keyLabel="c" android:isRepeatable="true">c</Key>
+        <Key android:codes="405" android:keyLabel="v" android:isRepeatable="true">v</Key>
+        <Key android:codes="406" android:keyLabel="b" android:isRepeatable="true">b</Key>
+        <Key android:codes="407" android:keyLabel="n" android:isRepeatable="true">n</Key>
+        <Key android:codes="408" android:keyLabel="m" android:isRepeatable="true">m</Key>
+        <Key android:codes="409" android:keyLabel="," android:isRepeatable="true">,</Key>
+        <Key android:codes="410" android:keyLabel="." android:isRepeatable="true">.</Key>
+        <Key android:codes="411" android:keyLabel="/" android:isRepeatable="true">/</Key>
+        <Key android:codes="-412" android:keyLabel="shift" android:keyEdgeFlags="right" android:isRepeatable="true">Shift</Key>
+    </Row>
+    <Row>
+        <Key android:codes="-501" android:keyLabel="ctrl" android:keyEdgeFlags="left" android:isRepeatable="true">Ctrl</Key>
+        <Key android:codes="502" android:keyLabel="cmd" android:isRepeatable="true">space</Key>
+        <Key android:codes="-503" android:keyLabel="alt" android:isRepeatable="true">Alt</Key>
+        <Key android:codes="504" android:keyLabel="space" android:isRepeatable="true">space</Key>
+        <Key android:codes="-505" android:keyLabel="alt" android:isRepeatable="true">Alt</Key>
+        <Key android:codes="506" android:keyLabel="cmd" android:isRepeatable="true">space</Key>
+        <Key android:codes="507" android:keyLabel="cmd" android:isRepeatable="true">space</Key>
+        <Key android:codes="-508" android:keyLabel="ctrl" android:keyEdgeFlags="right" android:isRepeatable="true">Ctrl</Key>
     </Row>
 </Keyboard>

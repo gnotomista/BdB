@@ -13,6 +13,7 @@ import org.xmlpull.v1.XmlPullParserException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class ProgKeyboard {
@@ -24,18 +25,18 @@ public class ProgKeyboard {
 
     private KeyboardView.OnKeyboardActionListener onKeyboardActionListener = new KeyboardView.OnKeyboardActionListener() {
         @Override
-        public void onPress(int i) {
+        public void onPress(int keycode) {
 
         }
 
         @Override
-        public void onRelease(int i) {
+        public void onRelease(int keycode) {
 
         }
 
         @Override
-        public void onKey(int i, int[] ints) {
-            decodeAndSend(i, ints);
+        public void onKey(int keycode, int[] keycodes) {
+            decodeAndSend(keycode, keycodes);
         }
 
         @Override
@@ -97,7 +98,17 @@ public class ProgKeyboard {
         keyboardView.setEnabled(false);
     }
 
-    private void decodeAndSend(int keyCode, int[] allKeyCodes) {
+    private void decodeAndSend(int keyCode, int[] keyCodes) {
+        List<Keyboard.Key> keys = this.keyboardView.getKeyboard().getKeys();
+        for (Keyboard.Key k : keys) {
+            if (k.codes[0] == 301) {
+                if (k.on)
+                    System.out.println("caps on");
+                else
+                    System.out.println("caps off");
+            }
+        }
+
         String keyChar = (pressedKey.get(keyCode)).get(1);
         if (keyCode < 0) {
             keyCodeString = keyChar + "+";
