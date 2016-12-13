@@ -22,6 +22,7 @@ public class ProgKeyboard {
     private String keyCodeString = "";
     private Map<Integer, ArrayList<String>> pressedKey = new HashMap<>();
     XmlPullParser parser;
+    boolean caps_lock = false;
 
     private KeyboardView.OnKeyboardActionListener onKeyboardActionListener = new KeyboardView.OnKeyboardActionListener() {
         @Override
@@ -102,10 +103,7 @@ public class ProgKeyboard {
         List<Keyboard.Key> keys = this.keyboardView.getKeyboard().getKeys();
         for (Keyboard.Key k : keys) {
             if (k.codes[0] == 301) {
-                if (k.on)
-                    System.out.println("caps on");
-                else
-                    System.out.println("caps off");
+                caps_lock = k.on;
             }
         }
 
@@ -113,6 +111,10 @@ public class ProgKeyboard {
         if (keyCode < 0) {
             keyCodeString = keyChar + "+";
         } else {
+            // two lines below are not needed since caps lock key is sending caps_lock command
+            // could it be safer to send Shift+key though?
+            //if (caps_lock && keyCodeString.isEmpty())
+            //    keyCodeString += "Shift+";
             keyCodeString += keyChar;
             MainActivity.sendString(keyCodeString);
             keyCodeString = "";
