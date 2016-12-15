@@ -1,0 +1,17 @@
+play/pause Space
+stop s
+next n
+previous p
+fullscreen f
+exit fullscreen Esc
+volume up Ctrl+Up
+volume down Ctrl+Down
+mute m
+
+faster +
+slower -
+normal =
+next frame e
+zoom z
+unzoom Shift+z
+
