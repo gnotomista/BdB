@@ -109,7 +109,7 @@ public class ProgKeyboard {
 
         String keyChar = (pressedKey.get(keyCode)).get(1);
         if (keyCode < 0) {
-            keyCodeString = keyChar + "+";
+            keyCodeString += keyChar + "+";
         } else {
             // two lines below are not needed since caps lock key is sending caps_lock command
             // could it be safer to send Shift+key though?

@@ -84,11 +84,11 @@
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:visibility="gone"
+        android:labelTextSize="9dp"
         android:keyPreviewLayout="@layout/prog_keyboard_preview"
         android:keyPreviewHeight="50dp"
         android:keyPreviewOffset="-50dp"
-        android:keyTextSize="12dp"
-        android:labelTextSize="12dp"
+        android:keyTextSize="10dp"
         android:keyTextColor="#E95420" />
 
 </RelativeLayout>

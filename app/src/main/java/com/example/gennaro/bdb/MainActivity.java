@@ -200,28 +200,28 @@ public class MainActivity extends AppCompatActivity
     }
 
     public static void onMouseMove(int x, int y) {
-        String mouseMovements = "mouse," + Integer.toString(x) + "," + Integer.toString(y);
+        String mouseMovements = "_p," + Integer.toString(x) + "," + Integer.toString(y);
         tcpClient.send(mouseMovements);
     }
 
     public void onLeftMouseButton(View v) {
-        tcpClient.send("left_mouse_button");
+        tcpClient.send("_l");
     }
 
     public void onRightMouseButton(View v) {
-        tcpClient.send("right_mouse_button");
+        tcpClient.send("_r");
     }
 
     public void onMiddleMouseButton(View v) {
-        tcpClient.send("middle_mouse_button");
+        tcpClient.send("_m");
     }
 
     public static void onMouseScrollUp() {
-        tcpClient.send("scroll_up_mouse_button");
+        tcpClient.send("_u");
     }
 
     public static void onMouseScrollDown() {
-        tcpClient.send("scroll_down_mouse_button");
+        tcpClient.send("_d");
     }
 
     public static void sendString(String string) { tcpClient.send(string); }

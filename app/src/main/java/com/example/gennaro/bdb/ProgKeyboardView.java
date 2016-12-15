@@ -17,7 +17,7 @@ import java.util.List;
 public class ProgKeyboardView extends KeyboardView {
 
     public static boolean inEditMode = true;
-//    Paint paint = new Paint();
+    Paint paint = new Paint();
 
     @TargetApi(21) // Build.VERSION_CODES.L
     public ProgKeyboardView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
@@ -36,15 +36,26 @@ public class ProgKeyboardView extends KeyboardView {
     public void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
-//        paint.setTypeface(Typeface.DEFAULT);
-//        paint.setTextAlign(Paint.Align.CENTER);
-//        paint.setTextSize(50);
-//        paint.setColor(Color.parseColor("#E95420"));
-//        List<Keyboard.Key> keys = getKeyboard().getKeys();
-//        for(Keyboard.Key key: keys) {
-//            if(key.label != null)
-//                canvas.drawText(key.label.toString(), key.x + (key.width/3), key.y + (key.height/3), paint);
-//        }
+        String[] alt_key_100 = {"~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "+"};
+        String[] alt_key_200 = {"{", "}", "|"}; // 212-213
+        String[] alt_key_300 = {":", "\"", "|"}; // 311-312
+        String[] alt_key_400 = {"<", ">", "?"}; // 409-411
+
+        paint.setTypeface(Typeface.DEFAULT_BOLD);
+        paint.setTextAlign(Paint.Align.CENTER);
+        paint.setTextSize(20);
+        paint.setColor(Color.parseColor("#FFFFFF"));
+        List<Keyboard.Key> keys = getKeyboard().getKeys();
+        for(Keyboard.Key key: keys) {
+            if (key.codes[0] >= 101 && key.codes[0] <= 113)
+                canvas.drawText(alt_key_100[key.codes[0]-101], (float)(key.x + (key.width/3.2)), (float)(key.y + (key.height/2.5)), paint);
+            else if (key.codes[0] >= 212 && key.codes[0] <= 213)
+                canvas.drawText(alt_key_200[key.codes[0]-212], (float)(key.x + (key.width/3.2)), (float)(key.y + (key.height/2.3)), paint);
+            else if (key.codes[0] >= 311 && key.codes[0] <= 312)
+                canvas.drawText(alt_key_300[key.codes[0]-311], (float)(key.x + (key.width/3.2)), (float)(key.y + (key.height/2.3)), paint);
+            else if (key.codes[0] >= 409 && key.codes[0] <= 411)
+                canvas.drawText(alt_key_400[key.codes[0]-409], (float)(key.x + (key.width/3.2)), (float)(key.y + (key.height/2.3)), paint);
+        }
     }
 
     public static class ContextWrapperInner extends ContextWrapper {

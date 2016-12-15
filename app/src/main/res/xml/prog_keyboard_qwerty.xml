@@ -36,7 +36,7 @@
         <Key android:codes="114" android:keyIcon="@mipmap/backspace" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyWidth="16.1290%p">BackSpace</Key>
     </Row>
     <Row>
-        <Key android:codes="201" android:keyLabel="tab" android:keyEdgeFlags="left" android:isRepeatable="true" android:keyWidth="11.2903%p">Tab</Key>
+        <Key android:codes="201" android:keyIcon="@mipmap/tab" android:keyEdgeFlags="left" android:isRepeatable="true" android:keyWidth="11.2903%p">Tab</Key>
         <Key android:codes="202" android:keyLabel="q" android:isRepeatable="true" android:keyWidth="6.4516%p">q</Key>
         <Key android:codes="203" android:keyLabel="w" android:isRepeatable="true" android:keyWidth="6.4516%p">w</Key>
         <Key android:codes="204" android:keyLabel="e" android:isRepeatable="true" android:keyWidth="6.4516%p">e</Key>
@@ -52,7 +52,7 @@
         <Key android:codes="214" android:keyLabel="\\\" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyWidth="11.2903%p">backslash</Key>
     </Row>
     <Row>
-        <Key android:codes="301" android:keyLabel="caps" android:keyEdgeFlags="left" android:isRepeatable="true" android:isSticky="true" android:keyWidth="12.9032%p">Caps_Lock</Key>
+        <Key android:codes="301" android:keyIcon="@mipmap/capslock" android:keyEdgeFlags="left" android:isRepeatable="true" android:isSticky="true" android:keyWidth="12.9032%p">Caps_Lock</Key>
         <Key android:codes="302" android:keyLabel="a" android:isRepeatable="true" android:keyWidth="6.4516%p">a</Key>
         <Key android:codes="303" android:keyLabel="s" android:isRepeatable="true" android:keyWidth="6.4516%p">s</Key>
         <Key android:codes="304" android:keyLabel="d" android:isRepeatable="true" android:keyWidth="6.4516%p">d</Key>
@@ -64,10 +64,10 @@
         <Key android:codes="310" android:keyLabel="l" android:isRepeatable="true" android:keyWidth="6.4516%p">l</Key>
         <Key android:codes="311" android:keyLabel=";" android:isRepeatable="true" android:keyWidth="6.4516%p">semicolon</Key>
         <Key android:codes="312" android:keyLabel="'" android:isRepeatable="true" android:keyWidth="6.4516%p">apostrophe</Key>
-        <Key android:codes="313" android:keyLabel="Enter" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyWidth="16.1290%p">Return</Key>
+        <Key android:codes="313" android:keyIcon="@mipmap/return_nokeyword" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyWidth="16.1290%p">Return</Key>
     </Row>
     <Row>
-        <Key android:codes="-401" android:keyLabel="shift" android:keyEdgeFlags="left" android:isRepeatable="true" android:keyWidth="17.7419%p">Shift</Key>
+        <Key android:codes="-401" android:keyIcon="@mipmap/shift" android:keyEdgeFlags="left" android:isRepeatable="true" android:keyWidth="17.7419%p">Shift</Key>
         <Key android:codes="402" android:keyLabel="z" android:isRepeatable="true" android:keyWidth="6.4516%p">z</Key>
         <Key android:codes="403" android:keyLabel="x" android:isRepeatable="true" android:keyWidth="6.4516%p">x</Key>
         <Key android:codes="404" android:keyLabel="c" android:isRepeatable="true" android:keyWidth="6.4516%p">c</Key>
@@ -78,16 +78,16 @@
         <Key android:codes="409" android:keyLabel="," android:isRepeatable="true" android:keyWidth="6.4516%p">comma</Key>
         <Key android:codes="410" android:keyLabel="." android:isRepeatable="true" android:keyWidth="6.4516%p">period</Key>
         <Key android:codes="411" android:keyLabel="/" android:isRepeatable="true" android:keyWidth="6.4516%p">slash</Key>
-        <Key android:codes="-412" android:keyLabel="shift" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyWidth="17.7419%p">Shift</Key>
+        <Key android:codes="-412" android:keyIcon="@mipmap/shift" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyWidth="17.7419%p">Shift</Key>
     </Row>
     <Row>
         <Key android:codes="-501" android:keyLabel="ctrl" android:keyEdgeFlags="left" android:isRepeatable="true" android:keyWidth="11.2903%p">Ctrl</Key>
-        <Key android:codes="-502" android:keyLabel="cmd" android:isRepeatable="true" android:keyWidth="7.7419%p">Super_L</Key>
+        <Key android:codes="-502" android:keyIcon="@mipmap/super_nokeyword" android:isRepeatable="true" android:keyWidth="7.7419%p">Super_L</Key>
         <Key android:codes="-503" android:keyLabel="alt" android:isRepeatable="true" android:keyWidth="7.7419%p">Alt</Key>
-        <Key android:codes="504" android:keyLabel="space" android:isRepeatable="true" android:keyWidth="38.7097%p">space</Key>
+        <Key android:codes="504" android:keyLabel="" android:isRepeatable="true" android:keyWidth="38.7097%p">space</Key>
         <Key android:codes="-505" android:keyLabel="alt" android:isRepeatable="true" android:keyWidth="7.7419%p">Alt</Key>
-        <Key android:codes="-506" android:keyLabel="cmd" android:isRepeatable="true" android:keyWidth="7.7419%p">Super_R</Key>
-        <Key android:codes="507" android:keyLabel="cmd" android:isRepeatable="true" android:keyWidth="7.7419%p">right_mouse_button</Key>
+        <Key android:codes="-506" android:keyIcon="@mipmap/super_nokeyword" android:isRepeatable="true" android:keyWidth="7.7419%p">Super_R</Key>
+        <Key android:codes="507" android:keyIcon="@mipmap/menu" android:isRepeatable="true" android:keyWidth="7.7419%p">_r</Key>
         <Key android:codes="-508" android:keyLabel="ctrl" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyWidth="11.2903%p">Ctrl</Key>
     </Row>
 </Keyboard>
