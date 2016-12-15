@@ -1,59 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="IP"
-        android:id="@+id/text_ip"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="50dp" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ip"
+            android:inputType="number|numberDecimal"
+            android:digits="0123456789."
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:text="10.42.0.1" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/ip"
-        android:inputType="number|numberDecimal"
-        android:digits="0123456789."
-        android:layout_marginTop="85dp"
-        android:layout_marginLeft="150dp"
-        android:text="10.42.0.1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IP"
+            android:id="@+id/text_ip"
+            android:layout_toLeftOf="@+id/ip"
+            android:layout_marginRight="50dp"
+            android:layout_alignTop="@+id/ip"
+            android:layout_marginTop="12dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="port"
-        android:id="@+id/text_port"
-        android:layout_marginTop="150dp"
-        android:layout_marginLeft="50dp" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/port"
+            android:inputType="number|numberDecimal"
+            android:digits="0123456789."
+            android:layout_alignLeft="@+id/ip"
+            android:layout_below="@+id/ip"
+            android:layout_marginTop="20dp"
+            android:text="1846" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/port"
-        android:inputType="number|numberDecimal"
-        android:digits="0123456789."
-        android:layout_marginTop="135dp"
-        android:layout_marginLeft="150dp"
-        android:text="1846" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="port"
+            android:id="@+id/text_port"
+            android:layout_toLeftOf="@+id/port"
+            android:layout_marginRight="50dp"
+            android:layout_alignTop="@+id/port"
+            android:layout_marginTop="12dp" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Connect"
-        android:id="@+id/button_connect"
-        android:layout_marginTop="250dp"
-        android:layout_marginLeft="40dp"
-        android:onClick="onConnectClick" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Connect"
+            android:id="@+id/button_connect"
+            android:layout_below="@+id/port"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="80dp"
+            android:onClick="onConnectClick" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Disconnect"
-        android:id="@+id/button_disconnect"
-        android:layout_marginTop="250dp"
-        android:layout_marginLeft="210dp"
-        android:onClick="onDisconnectClick" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disconnect"
+            android:id="@+id/button_disconnect"
+            android:layout_below="@+id/port"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="80dp"
+            android:onClick="onDisconnectClick" />
 
-</RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
