@@ -4,90 +4,100 @@
     android:keyHeight="5.5%p" >
 
     <Row>
-        <Key android:codes="1" android:keyLabel="Esc" android:keyEdgeFlags="left" android:isRepeatable="true" android:keyWidth="7.0000%p">Escape</Key>
-        <Key android:codes="2" android:keyLabel="F1" android:isRepeatable="true" android:keyWidth="7.0000%p">F1</Key>
-        <Key android:codes="3" android:keyLabel="F2" android:isRepeatable="true" android:keyWidth="7.0000%p">F2</Key>
-        <Key android:codes="4" android:keyLabel="F3" android:isRepeatable="true" android:keyWidth="7.0000%p">F3</Key>
-        <Key android:codes="5" android:keyLabel="F4" android:isRepeatable="true" android:keyWidth="7.0000%p">F4</Key>
-        <Key android:codes="6" android:keyLabel="F5" android:isRepeatable="true" android:keyWidth="7.0000%p">F5</Key>
-        <Key android:codes="7" android:keyLabel="F6" android:isRepeatable="true" android:keyWidth="7.0000%p">F6</Key>
-        <Key android:codes="8" android:keyLabel="F7" android:isRepeatable="true" android:keyWidth="7.0000%p">F7</Key>
-        <Key android:codes="9" android:keyLabel="F8" android:isRepeatable="true" android:keyWidth="7.0000%p">F8</Key>
-        <Key android:codes="10" android:keyLabel="F9" android:isRepeatable="true" android:keyWidth="7.0000%p">F9</Key>
-        <Key android:codes="11" android:keyLabel="F10" android:isRepeatable="true" android:keyWidth="7.0000%p">F10</Key>
-        <Key android:codes="12" android:keyLabel="F11" android:isRepeatable="true" android:keyWidth="7.0000%p">F11</Key>
-        <Key android:codes="13" android:keyLabel="F12" android:isRepeatable="true" android:keyWidth="7.0000%p">F12</Key>
-        <Key android:codes="14" android:keyLabel="del" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyWidth="9.0000%p">Delete</Key>
+        <Key android:codes="1" android:keyLabel="Home" android:keyEdgeFlags="left" android:isRepeatable="true" android:keyWidth="100%p">Home</Key>
+        <Key android:codes="2" android:keyLabel="End" android:isRepeatable="true" android:keyWidth="100%p">End</Key>
+        <Key android:codes="3" android:keyLabel="PgUp" android:isRepeatable="true" android:keyWidth="100%p">Page_Up</Key>
+        <Key android:codes="4" android:keyLabel="PgDown" android:isRepeatable="true" android:keyWidth="100%p">Page_Down</Key>
+        <Key android:codes="5" android:keyIcon="@mipmap/left" android:isRepeatable="true" android:keyWidth="100%p">Left</Key>
+        <Key android:codes="6" android:keyIcon="@mipmap/up" android:isRepeatable="true" android:keyWidth="100%p">Up</Key>
+        <Key android:codes="7" android:keyIcon="@mipmap/down" android:isRepeatable="true" android:keyWidth="100%p">Down</Key>
+        <Key android:codes="8" android:keyIcon="@mipmap/right" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyWidth="100%p">Right</Key>
     </Row>
     <Row>
-        <Key android:codes="101" android:keyLabel="`" android:keyEdgeFlags="left" android:isRepeatable="true" android:keyWidth="6.4516%p">grave</Key>
-        <Key android:codes="102" android:keyLabel="1" android:isRepeatable="true" android:keyWidth="6.4516%p">1</Key>
-        <Key android:codes="103" android:keyLabel="2" android:isRepeatable="true" android:keyWidth="6.4516%p">2</Key>
-        <Key android:codes="104" android:keyLabel="3" android:isRepeatable="true" android:keyWidth="6.4516%p">3</Key>
-        <Key android:codes="105" android:keyLabel="4" android:isRepeatable="true" android:keyWidth="6.4516%p">4</Key>
-        <Key android:codes="106" android:keyLabel="5" android:isRepeatable="true" android:keyWidth="6.4516%p">5</Key>
-        <Key android:codes="107" android:keyLabel="6" android:isRepeatable="true" android:keyWidth="6.4516%p">6</Key>
-        <Key android:codes="108" android:keyLabel="7" android:isRepeatable="true" android:keyWidth="6.4516%p">7</Key>
-        <Key android:codes="109" android:keyLabel="8" android:isRepeatable="true" android:keyWidth="6.4516%p">8</Key>
-        <Key android:codes="110" android:keyLabel="9" android:isRepeatable="true" android:keyWidth="6.4516%p">9</Key>
-        <Key android:codes="111" android:keyLabel="0" android:isRepeatable="true" android:keyWidth="6.4516%p">0</Key>
-        <Key android:codes="112" android:keyLabel="-" android:isRepeatable="true" android:keyWidth="6.4516%p">minus</Key>
-        <Key android:codes="113" android:keyLabel="=" android:isRepeatable="true" android:keyWidth="6.4516%p">equal</Key>
-        <Key android:codes="114" android:keyIcon="@mipmap/backspace" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyWidth="16.1290%p">BackSpace</Key>
+        <Key android:codes="101" android:keyLabel="Esc" android:keyEdgeFlags="left" android:isRepeatable="true" android:keyWidth="7.0000%p">Escape</Key>
+        <Key android:codes="102" android:keyLabel="F1" android:isRepeatable="true" android:keyWidth="7.0000%p">F1</Key>
+        <Key android:codes="103" android:keyLabel="F2" android:isRepeatable="true" android:keyWidth="7.0000%p">F2</Key>
+        <Key android:codes="104" android:keyLabel="F3" android:isRepeatable="true" android:keyWidth="7.0000%p">F3</Key>
+        <Key android:codes="105" android:keyLabel="F4" android:isRepeatable="true" android:keyWidth="7.0000%p">F4</Key>
+        <Key android:codes="106" android:keyLabel="F5" android:isRepeatable="true" android:keyWidth="7.0000%p">F5</Key>
+        <Key android:codes="107" android:keyLabel="F6" android:isRepeatable="true" android:keyWidth="7.0000%p">F6</Key>
+        <Key android:codes="108" android:keyLabel="F7" android:isRepeatable="true" android:keyWidth="7.0000%p">F7</Key>
+        <Key android:codes="109" android:keyLabel="F8" android:isRepeatable="true" android:keyWidth="7.0000%p">F8</Key>
+        <Key android:codes="110" android:keyLabel="F9" android:isRepeatable="true" android:keyWidth="7.0000%p">F9</Key>
+        <Key android:codes="111" android:keyLabel="F10" android:isRepeatable="true" android:keyWidth="7.0000%p">F10</Key>
+        <Key android:codes="112" android:keyLabel="F11" android:isRepeatable="true" android:keyWidth="7.0000%p">F11</Key>
+        <Key android:codes="113" android:keyLabel="F12" android:isRepeatable="true" android:keyWidth="7.0000%p">F12</Key>
+        <Key android:codes="114" android:keyLabel="del" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyWidth="9.0000%p">Delete</Key>
     </Row>
     <Row>
-        <Key android:codes="201" android:keyIcon="@mipmap/tab" android:keyEdgeFlags="left" android:isRepeatable="true" android:keyWidth="11.2903%p">Tab</Key>
-        <Key android:codes="202" android:keyLabel="q" android:isRepeatable="true" android:keyWidth="6.4516%p">q</Key>
-        <Key android:codes="203" android:keyLabel="w" android:isRepeatable="true" android:keyWidth="6.4516%p">w</Key>
-        <Key android:codes="204" android:keyLabel="e" android:isRepeatable="true" android:keyWidth="6.4516%p">e</Key>
-        <Key android:codes="205" android:keyLabel="r" android:isRepeatable="true" android:keyWidth="6.4516%p">r</Key>
-        <Key android:codes="206" android:keyLabel="t" android:isRepeatable="true" android:keyWidth="6.4516%p">t</Key>
-        <Key android:codes="207" android:keyLabel="y" android:isRepeatable="true" android:keyWidth="6.4516%p">y</Key>
-        <Key android:codes="208" android:keyLabel="u" android:isRepeatable="true" android:keyWidth="6.4516%p">u</Key>
-        <Key android:codes="209" android:keyLabel="i" android:isRepeatable="true" android:keyWidth="6.4516%p">i</Key>
-        <Key android:codes="210" android:keyLabel="o" android:isRepeatable="true" android:keyWidth="6.4516%p">o</Key>
-        <Key android:codes="211" android:keyLabel="p" android:isRepeatable="true" android:keyWidth="6.4516%p">p</Key>
-        <Key android:codes="212" android:keyLabel="[" android:isRepeatable="true" android:keyWidth="6.4516%p">bracketleft</Key>
-        <Key android:codes="213" android:keyLabel="]" android:isRepeatable="true" android:keyWidth="6.4516%p">bracketright</Key>
-        <Key android:codes="214" android:keyLabel="\\\" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyWidth="11.2903%p">backslash</Key>
+        <Key android:codes="201" android:keyLabel="`" android:keyEdgeFlags="left" android:isRepeatable="true" android:keyWidth="6.4516%p">grave</Key>
+        <Key android:codes="202" android:keyLabel="1" android:isRepeatable="true" android:keyWidth="6.4516%p">1</Key>
+        <Key android:codes="203" android:keyLabel="2" android:isRepeatable="true" android:keyWidth="6.4516%p">2</Key>
+        <Key android:codes="204" android:keyLabel="3" android:isRepeatable="true" android:keyWidth="6.4516%p">3</Key>
+        <Key android:codes="205" android:keyLabel="4" android:isRepeatable="true" android:keyWidth="6.4516%p">4</Key>
+        <Key android:codes="206" android:keyLabel="5" android:isRepeatable="true" android:keyWidth="6.4516%p">5</Key>
+        <Key android:codes="207" android:keyLabel="6" android:isRepeatable="true" android:keyWidth="6.4516%p">6</Key>
+        <Key android:codes="208" android:keyLabel="7" android:isRepeatable="true" android:keyWidth="6.4516%p">7</Key>
+        <Key android:codes="209" android:keyLabel="8" android:isRepeatable="true" android:keyWidth="6.4516%p">8</Key>
+        <Key android:codes="210" android:keyLabel="9" android:isRepeatable="true" android:keyWidth="6.4516%p">9</Key>
+        <Key android:codes="211" android:keyLabel="0" android:isRepeatable="true" android:keyWidth="6.4516%p">0</Key>
+        <Key android:codes="212" android:keyLabel="-" android:isRepeatable="true" android:keyWidth="6.4516%p">minus</Key>
+        <Key android:codes="213" android:keyLabel="=" android:isRepeatable="true" android:keyWidth="6.4516%p">equal</Key>
+        <Key android:codes="214" android:keyIcon="@mipmap/backspace" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyWidth="16.1290%p">BackSpace</Key>
     </Row>
     <Row>
-        <Key android:codes="301" android:keyIcon="@mipmap/capslock" android:keyEdgeFlags="left" android:isRepeatable="true" android:isSticky="true" android:keyWidth="12.9032%p">Caps_Lock</Key>
-        <Key android:codes="302" android:keyLabel="a" android:isRepeatable="true" android:keyWidth="6.4516%p">a</Key>
-        <Key android:codes="303" android:keyLabel="s" android:isRepeatable="true" android:keyWidth="6.4516%p">s</Key>
-        <Key android:codes="304" android:keyLabel="d" android:isRepeatable="true" android:keyWidth="6.4516%p">d</Key>
-        <Key android:codes="305" android:keyLabel="f" android:isRepeatable="true" android:keyWidth="6.4516%p">f</Key>
-        <Key android:codes="306" android:keyLabel="g" android:isRepeatable="true" android:keyWidth="6.4516%p">g</Key>
-        <Key android:codes="307" android:keyLabel="h" android:isRepeatable="true" android:keyWidth="6.4516%p">h</Key>
-        <Key android:codes="308" android:keyLabel="j" android:isRepeatable="true" android:keyWidth="6.4516%p">j</Key>
-        <Key android:codes="309" android:keyLabel="k" android:isRepeatable="true" android:keyWidth="6.4516%p">k</Key>
-        <Key android:codes="310" android:keyLabel="l" android:isRepeatable="true" android:keyWidth="6.4516%p">l</Key>
-        <Key android:codes="311" android:keyLabel=";" android:isRepeatable="true" android:keyWidth="6.4516%p">semicolon</Key>
-        <Key android:codes="312" android:keyLabel="'" android:isRepeatable="true" android:keyWidth="6.4516%p">apostrophe</Key>
-        <Key android:codes="313" android:keyIcon="@mipmap/return_nokeyword" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyWidth="16.1290%p">Return</Key>
+        <Key android:codes="301" android:keyIcon="@mipmap/tab" android:keyEdgeFlags="left" android:isRepeatable="true" android:keyWidth="11.2903%p">Tab</Key>
+        <Key android:codes="302" android:keyLabel="q" android:isRepeatable="true" android:keyWidth="6.4516%p">q</Key>
+        <Key android:codes="303" android:keyLabel="w" android:isRepeatable="true" android:keyWidth="6.4516%p">w</Key>
+        <Key android:codes="304" android:keyLabel="e" android:isRepeatable="true" android:keyWidth="6.4516%p">e</Key>
+        <Key android:codes="305" android:keyLabel="r" android:isRepeatable="true" android:keyWidth="6.4516%p">r</Key>
+        <Key android:codes="306" android:keyLabel="t" android:isRepeatable="true" android:keyWidth="6.4516%p">t</Key>
+        <Key android:codes="307" android:keyLabel="y" android:isRepeatable="true" android:keyWidth="6.4516%p">y</Key>
+        <Key android:codes="308" android:keyLabel="u" android:isRepeatable="true" android:keyWidth="6.4516%p">u</Key>
+        <Key android:codes="309" android:keyLabel="i" android:isRepeatable="true" android:keyWidth="6.4516%p">i</Key>
+        <Key android:codes="310" android:keyLabel="o" android:isRepeatable="true" android:keyWidth="6.4516%p">o</Key>
+        <Key android:codes="311" android:keyLabel="p" android:isRepeatable="true" android:keyWidth="6.4516%p">p</Key>
+        <Key android:codes="312" android:keyLabel="[" android:isRepeatable="true" android:keyWidth="6.4516%p">bracketleft</Key>
+        <Key android:codes="313" android:keyLabel="]" android:isRepeatable="true" android:keyWidth="6.4516%p">bracketright</Key>
+        <Key android:codes="314" android:keyLabel="\\\" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyWidth="11.2903%p">backslash</Key>
     </Row>
     <Row>
-        <Key android:codes="-401" android:keyIcon="@mipmap/shift" android:keyEdgeFlags="left" android:isRepeatable="true" android:keyWidth="17.7419%p">Shift</Key>
-        <Key android:codes="402" android:keyLabel="z" android:isRepeatable="true" android:keyWidth="6.4516%p">z</Key>
-        <Key android:codes="403" android:keyLabel="x" android:isRepeatable="true" android:keyWidth="6.4516%p">x</Key>
-        <Key android:codes="404" android:keyLabel="c" android:isRepeatable="true" android:keyWidth="6.4516%p">c</Key>
-        <Key android:codes="405" android:keyLabel="v" android:isRepeatable="true" android:keyWidth="6.4516%p">v</Key>
-        <Key android:codes="406" android:keyLabel="b" android:isRepeatable="true" android:keyWidth="6.4516%p">b</Key>
-        <Key android:codes="407" android:keyLabel="n" android:isRepeatable="true" android:keyWidth="6.4516%p">n</Key>
-        <Key android:codes="408" android:keyLabel="m" android:isRepeatable="true" android:keyWidth="6.4516%p">m</Key>
-        <Key android:codes="409" android:keyLabel="," android:isRepeatable="true" android:keyWidth="6.4516%p">comma</Key>
-        <Key android:codes="410" android:keyLabel="." android:isRepeatable="true" android:keyWidth="6.4516%p">period</Key>
-        <Key android:codes="411" android:keyLabel="/" android:isRepeatable="true" android:keyWidth="6.4516%p">slash</Key>
-        <Key android:codes="-412" android:keyIcon="@mipmap/shift" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyWidth="17.7419%p">Shift</Key>
+        <Key android:codes="401" android:keyIcon="@mipmap/capslock" android:keyEdgeFlags="left" android:isRepeatable="true" android:isSticky="true" android:keyWidth="12.9032%p">Caps_Lock</Key>
+        <Key android:codes="402" android:keyLabel="a" android:isRepeatable="true" android:keyWidth="6.4516%p">a</Key>
+        <Key android:codes="403" android:keyLabel="s" android:isRepeatable="true" android:keyWidth="6.4516%p">s</Key>
+        <Key android:codes="404" android:keyLabel="d" android:isRepeatable="true" android:keyWidth="6.4516%p">d</Key>
+        <Key android:codes="405" android:keyLabel="f" android:isRepeatable="true" android:keyWidth="6.4516%p">f</Key>
+        <Key android:codes="406" android:keyLabel="g" android:isRepeatable="true" android:keyWidth="6.4516%p">g</Key>
+        <Key android:codes="407" android:keyLabel="h" android:isRepeatable="true" android:keyWidth="6.4516%p">h</Key>
+        <Key android:codes="408" android:keyLabel="j" android:isRepeatable="true" android:keyWidth="6.4516%p">j</Key>
+        <Key android:codes="409" android:keyLabel="k" android:isRepeatable="true" android:keyWidth="6.4516%p">k</Key>
+        <Key android:codes="410" android:keyLabel="l" android:isRepeatable="true" android:keyWidth="6.4516%p">l</Key>
+        <Key android:codes="411" android:keyLabel=";" android:isRepeatable="true" android:keyWidth="6.4516%p">semicolon</Key>
+        <Key android:codes="412" android:keyLabel="'" android:isRepeatable="true" android:keyWidth="6.4516%p">apostrophe</Key>
+        <Key android:codes="413" android:keyIcon="@mipmap/return_nokeyword" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyWidth="16.1290%p">Return</Key>
     </Row>
     <Row>
-        <Key android:codes="-501" android:keyLabel="ctrl" android:keyEdgeFlags="left" android:isRepeatable="true" android:keyWidth="11.2903%p">Ctrl</Key>
-        <Key android:codes="-502" android:keyIcon="@mipmap/super_nokeyword" android:isRepeatable="true" android:keyWidth="7.7419%p">Super_L</Key>
-        <Key android:codes="-503" android:keyLabel="alt" android:isRepeatable="true" android:keyWidth="7.7419%p">Alt</Key>
-        <Key android:codes="504" android:keyLabel="" android:isRepeatable="true" android:keyWidth="38.7097%p">space</Key>
-        <Key android:codes="-505" android:keyLabel="alt" android:isRepeatable="true" android:keyWidth="7.7419%p">Alt</Key>
-        <Key android:codes="-506" android:keyIcon="@mipmap/super_nokeyword" android:isRepeatable="true" android:keyWidth="7.7419%p">Super_R</Key>
-        <Key android:codes="507" android:keyIcon="@mipmap/menu" android:isRepeatable="true" android:keyWidth="7.7419%p">_r</Key>
-        <Key android:codes="-508" android:keyLabel="ctrl" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyWidth="11.2903%p">Ctrl</Key>
+        <Key android:codes="-501" android:keyIcon="@mipmap/shift" android:keyEdgeFlags="left" android:isRepeatable="true" android:keyWidth="17.7519%p">Shift</Key>
+        <Key android:codes="502" android:keyLabel="z" android:isRepeatable="true" android:keyWidth="6.4516%p">z</Key>
+        <Key android:codes="503" android:keyLabel="x" android:isRepeatable="true" android:keyWidth="6.4516%p">x</Key>
+        <Key android:codes="504" android:keyLabel="c" android:isRepeatable="true" android:keyWidth="6.4516%p">c</Key>
+        <Key android:codes="505" android:keyLabel="v" android:isRepeatable="true" android:keyWidth="6.4516%p">v</Key>
+        <Key android:codes="506" android:keyLabel="b" android:isRepeatable="true" android:keyWidth="6.4516%p">b</Key>
+        <Key android:codes="507" android:keyLabel="n" android:isRepeatable="true" android:keyWidth="6.4516%p">n</Key>
+        <Key android:codes="508" android:keyLabel="m" android:isRepeatable="true" android:keyWidth="6.4516%p">m</Key>
+        <Key android:codes="509" android:keyLabel="," android:isRepeatable="true" android:keyWidth="6.4516%p">comma</Key>
+        <Key android:codes="510" android:keyLabel="." android:isRepeatable="true" android:keyWidth="6.4516%p">period</Key>
+        <Key android:codes="511" android:keyLabel="/" android:isRepeatable="true" android:keyWidth="6.4516%p">slash</Key>
+        <Key android:codes="-512" android:keyIcon="@mipmap/shift" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyWidth="17.7519%p">Shift</Key>
+    </Row>
+    <Row>
+        <Key android:codes="-601" android:keyLabel="ctrl" android:keyEdgeFlags="left" android:isRepeatable="true" android:keyWidth="11.2903%p">Ctrl</Key>
+        <Key android:codes="-602" android:keyIcon="@mipmap/super_nokeyword" android:isRepeatable="true" android:keyWidth="7.7519%p">Super_L</Key>
+        <Key android:codes="-603" android:keyLabel="alt" android:isRepeatable="true" android:keyWidth="7.7519%p">Alt</Key>
+        <Key android:codes="604" android:keyLabel="" android:isRepeatable="true" android:keyWidth="38.7097%p">space</Key>
+        <Key android:codes="-605" android:keyLabel="alt" android:isRepeatable="true" android:keyWidth="7.7519%p">Alt</Key>
+        <Key android:codes="-606" android:keyIcon="@mipmap/super_nokeyword" android:isRepeatable="true" android:keyWidth="7.7519%p">Super_R</Key>
+        <Key android:codes="607" android:keyIcon="@mipmap/menu" android:isRepeatable="true" android:keyWidth="7.7519%p">_r</Key>
+        <Key android:codes="-608" android:keyLabel="ctrl" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyWidth="11.2903%p">Ctrl</Key>
     </Row>
 </Keyboard>
