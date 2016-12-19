@@ -41,7 +41,7 @@
         android:layout_alignTop="@+id/touch_view"
         android:layout_alignLeft="@+id/touch_view"
         android:backgroundTint="#772953"
-        android:alpha="0.6"
+        android:alpha="1"
         android:onClick="onLeftMouseButton" />
 
     <Button
@@ -53,7 +53,7 @@
         android:layout_centerHorizontal="true"
         android:layout_alignTop="@+id/touch_view"
         android:backgroundTint="#772953"
-        android:alpha="0.6"
+        android:alpha="1"
         android:onClick="onMiddleMouseButton" />
 
     <Button
@@ -65,7 +65,7 @@
         android:layout_alignTop="@+id/touch_view"
         android:layout_alignRight="@+id/touch_view"
         android:backgroundTint="#772953"
-        android:alpha="0.6"
+        android:alpha="1"
         android:onClick="onRightMouseButton" />
 
     <TextView

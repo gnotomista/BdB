@@ -122,5 +122,5 @@
         android:layout_alignTop="@+id/fullscreen_button"
         android:layout_toEndOf="@+id/fullscreen_button"
         android:onClick="onExitFullScreen" />
-    
+
 </RelativeLayout>

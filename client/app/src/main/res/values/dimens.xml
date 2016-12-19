@@ -6,4 +6,7 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <!-- Touchview and button width -->
+    <dimen name="touchviewsize">250dp</dimen>
+    <dimen name="mousebuttonsize">50dp</dimen>
 </resources>
