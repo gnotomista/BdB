@@ -36,25 +36,25 @@ public class ProgKeyboardView extends KeyboardView {
     public void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
-        String[] alt_key_100 = {"~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "+"};
-        String[] alt_key_200 = {"{", "}", "|"}; // 212-213
-        String[] alt_key_300 = {":", "\"", "|"}; // 311-312
-        String[] alt_key_400 = {"<", ">", "?"}; // 409-411
+        String[] alt_key_200 = {"~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "+"};
+        String[] alt_key_300 = {"{", "}", "|"}; // 212-213
+        String[] alt_key_400 = {":", "\"", "|"}; // 311-312
+        String[] alt_key_500 = {"<", ">", "?"}; // 409-411
 
         paint.setTypeface(Typeface.DEFAULT_BOLD);
         paint.setTextAlign(Paint.Align.CENTER);
         paint.setTextSize(20);
-        paint.setColor(Color.parseColor("#FFFFFF"));
+        paint.setColor(Color.parseColor("#F29879"));
         List<Keyboard.Key> keys = getKeyboard().getKeys();
         for(Keyboard.Key key: keys) {
-            if (key.codes[0] >= 101 && key.codes[0] <= 113)
-                canvas.drawText(alt_key_100[key.codes[0]-101], (float)(key.x + (key.width/3.2)), (float)(key.y + (key.height/2.5)), paint);
-            else if (key.codes[0] >= 212 && key.codes[0] <= 213)
-                canvas.drawText(alt_key_200[key.codes[0]-212], (float)(key.x + (key.width/3.2)), (float)(key.y + (key.height/2.3)), paint);
-            else if (key.codes[0] >= 311 && key.codes[0] <= 312)
-                canvas.drawText(alt_key_300[key.codes[0]-311], (float)(key.x + (key.width/3.2)), (float)(key.y + (key.height/2.3)), paint);
-            else if (key.codes[0] >= 409 && key.codes[0] <= 411)
-                canvas.drawText(alt_key_400[key.codes[0]-409], (float)(key.x + (key.width/3.2)), (float)(key.y + (key.height/2.3)), paint);
+            if (key.codes[0] >= 201 && key.codes[0] <= 213)
+                canvas.drawText(alt_key_200[key.codes[0]-201], (float)(key.x + (key.width/3.2)), (float)(key.y + (key.height/2.5)), paint);
+            else if (key.codes[0] >= 312 && key.codes[0] <= 313)
+                canvas.drawText(alt_key_300[key.codes[0]-312], (float)(key.x + (key.width/3.2)), (float)(key.y + (key.height/2.3)), paint);
+            else if (key.codes[0] >= 411 && key.codes[0] <= 412)
+                canvas.drawText(alt_key_400[key.codes[0]-411], (float)(key.x + (key.width/3.2)), (float)(key.y + (key.height/2.3)), paint);
+            else if (key.codes[0] >= 509 && key.codes[0] <= 511)
+                canvas.drawText(alt_key_500[key.codes[0]-509], (float)(key.x + (key.width/3.2)), (float)(key.y + (key.height/2.3)), paint);
         }
     }
 

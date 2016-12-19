@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 744.09449 1052.3622"
+   id="svg9326"
+   version="1.1"
+   inkscape:version="0.91 r"
+   sodipodi:docname="mute_orange.svg"
+   width="210mm"
+   height="297mm"
+   inkscape:export-filename="/home/gennaro/AndroidStudioProjects/BdB/app_data/buttons/png/mute_orange.png"
+   inkscape:export-xdpi="230"
+   inkscape:export-ydpi="230">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.58820052"
+     inkscape:cx="-268.89065"
+     inkscape:cy="526.1811"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1317"
+     inkscape:window-height="750"
+     inkscape:window-x="49"
+     inkscape:window-y="18"
+     inkscape:window-maximized="1"
+     units="mm" />
+  <metadata
+     id="metadata9331">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-3.527559e-5)">
+    <rect
+       style="opacity:1;fill:#e95420;stroke:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       id="rect9293"
+       width="40"
+       height="50"
+       x="334.35504"
+       y="501.18112" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#e95420;stroke:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       id="path9295"
+       sodipodi:sides="3"
+       sodipodi:cx="415"
+       sodipodi:cy="421.64792"
+       sodipodi:r1="125.74675"
+       sodipodi:r2="62.873375"
+       sodipodi:arg1="3.1188693"
+       sodipodi:arg2="4.1660668"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 289.28571,424.50506 475.38279,311.34758 480.3315,529.09111 Z"
+       inkscape:transform-center-x="11.745915"
+       inkscape:transform-center-y="-0.041489337"
+       transform="matrix(0.37448521,0.00977258,-0.00797259,0.45903379,234.08062,328.61636)" />
+  </g>
+</svg>

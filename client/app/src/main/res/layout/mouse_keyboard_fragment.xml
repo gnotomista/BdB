@@ -11,7 +11,7 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="100dp"
-        android:background="#336699"
+        android:background="#772953"
         android:alpha=".2" />
 
     <com.example.gennaro.bdb.ScrollView
@@ -20,7 +20,7 @@
         android:layout_height="250dp"
         android:layout_alignTop="@+id/touch_view"
         android:layout_toRightOf="@+id/touch_view"
-        android:background="#336699"
+        android:background="#772953"
         android:alpha=".4" />
 
     <com.example.gennaro.bdb.VerticalSeekBar
@@ -40,6 +40,8 @@
         android:width="@dimen/mousebuttonsize"
         android:layout_alignTop="@+id/touch_view"
         android:layout_alignLeft="@+id/touch_view"
+        android:backgroundTint="#772953"
+        android:alpha="0.6"
         android:onClick="onLeftMouseButton" />
 
     <Button
@@ -50,6 +52,8 @@
         android:width="@dimen/mousebuttonsize"
         android:layout_centerHorizontal="true"
         android:layout_alignTop="@+id/touch_view"
+        android:backgroundTint="#772953"
+        android:alpha="0.6"
         android:onClick="onMiddleMouseButton" />
 
     <Button
@@ -60,6 +64,8 @@
         android:width="@dimen/mousebuttonsize"
         android:layout_alignTop="@+id/touch_view"
         android:layout_alignRight="@+id/touch_view"
+        android:backgroundTint="#772953"
+        android:alpha="0.6"
         android:onClick="onRightMouseButton" />
 
     <TextView

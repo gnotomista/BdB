@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 744.09449 1052.3622"
+   id="svg5901"
+   version="1.1"
+   inkscape:version="0.91 r"
+   sodipodi:docname="next_orange.svg"
+   width="210mm"
+   height="297mm">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.30692854"
+     inkscape:cx="372.04724"
+     inkscape:cy="526.1811"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="776"
+     inkscape:window-height="454"
+     inkscape:window-x="507"
+     inkscape:window-y="109"
+     inkscape:window-maximized="0"
+     units="mm" />
+  <metadata
+     id="metadata5906">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1.527559e-5)">
+    <path
+       sodipodi:type="star"
+       style="opacity:0.99;fill:#e95420;stroke:none;stroke-miterlimit:4;stroke-dasharray:24, 24;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       id="path4136"
+       sodipodi:sides="3"
+       sodipodi:cx="351.64182"
+       sodipodi:cy="362.96414"
+       sodipodi:r1="220.29665"
+       sodipodi:r2="110.14832"
+       sodipodi:arg1="0.97919662"
+       sodipodi:arg2="2.0263942"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 474.49896,545.82129 131.85431,377.93298 448.57218,165.13816 Z"
+       inkscape:transform-center-x="14.412999"
+       inkscape:transform-center-y="0.023970137"
+       transform="matrix(-0.26148763,-0.01759077,0.01759077,-0.26148763,433.19939,627.25344)"
+       inkscape:export-filename="/home/gennaro/AndroidStudioProjects/BdB/app_data/buttons/png/next_orange.png"
+       inkscape:export-xdpi="230"
+       inkscape:export-ydpi="230" />
+    <rect
+       style="opacity:0.99;fill:#e95420;stroke:none;stroke-miterlimit:4;stroke-dasharray:24, 24;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       id="rect4142"
+       width="20"
+       height="100"
+       x="405.36929"
+       y="476.18112"
+       ry="0"
+       inkscape:export-filename="/home/gennaro/AndroidStudioProjects/BdB/app_data/buttons/png/next_orange.png"
+       inkscape:export-xdpi="230"
+       inkscape:export-ydpi="230" />
+  </g>
+</svg>

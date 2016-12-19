@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 744.09449 1052.3622"
+   id="svg4178"
+   version="1.1"
+   inkscape:version="0.91 r"
+   sodipodi:docname="stop_orange.svg"
+   width="210mm"
+   height="297mm">
+  <defs
+     id="defs7" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.43426113"
+     inkscape:cx="-62.023385"
+     inkscape:cy="526.1811"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="864"
+     inkscape:window-height="588"
+     inkscape:window-x="460"
+     inkscape:window-y="93"
+     inkscape:window-maximized="0"
+     units="mm" />
+  <metadata
+     id="metadata4183">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1.527559e-5)">
+    <rect
+       style="opacity:1;fill:#e95420;stroke:none;stroke-miterlimit:4;stroke-dasharray:24, 24;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       id="rect4726"
+       width="100"
+       height="100"
+       x="322.04724"
+       y="476.18112"
+       inkscape:export-filename="/home/gennaro/AndroidStudioProjects/BdB/app_data/buttons/png/stop_orange.png"
+       inkscape:export-xdpi="230"
+       inkscape:export-ydpi="230" />
+  </g>
+</svg>
