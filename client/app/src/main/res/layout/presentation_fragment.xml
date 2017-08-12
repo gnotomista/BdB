@@ -29,7 +29,7 @@
         android:layout_marginRight="70dp"
         android:onClick="onNextSlide" />
 
-    <com.example.gennaro.bdb.TouchView
+    <com.example.gennaro.bdbudpclient.TouchView
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:id="@+id/touch_view"
@@ -39,7 +39,7 @@
         android:layout_marginBottom="40dp"
         android:layout_centerHorizontal="true" />
 
-    <com.example.gennaro.bdb.VerticalSeekBar
+    <com.example.gennaro.bdbudpclient.VerticalSeekBar
         android:layout_width="50dp"
         android:layout_height="250dp"
         android:layout_gravity="center"
