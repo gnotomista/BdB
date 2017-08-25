@@ -1,6 +1,7 @@
 from socket import socket, AF_INET, SOCK_DGRAM, SOL_SOCKET, SO_BROADCAST
 from netifaces import ifaddresses
 import json
+from xdo import Xdo
 from time import sleep
 
 ID_STOP = -1;
@@ -20,7 +21,9 @@ UDP_PORT_SEND = 1846;
 UDP_PORT_RECV = 1847;
 UDP_BUFFER_SIZE = 1024;
 
-net_info = ifaddresses('wlo1')
+print 'UEILA: starting up'
+
+net_info = ifaddresses('wlp5s0')
 udp_ip = net_info[2][0]['addr']
 broadcast_ip = net_info[2][0]['broadcast']
 
@@ -41,7 +44,7 @@ msg_send = {
 }
 msg_send_string = json.dumps(msg_send)
 
-print 'Setting up communication...'
+print 'Waiting for setting up communication...'
 
 while msg_recv['id'] != ID_START:
     sock_send.setsockopt(SOL_SOCKET, SO_BROADCAST, 1)
@@ -58,6 +61,8 @@ while msg_recv['id'] != ID_START:
 
 print '...done'
 
+xdo = Xdo()
+
 while msg_recv['id'] != ID_STOP:
     msg_recv_string = ''
     msg_recv = {
@@ -70,3 +75,8 @@ while msg_recv['id'] != ID_STOP:
         # print e
         pass
     print 'recv raw: ', msg_recv_string
+    
+    if 'x' in msg_recv:
+        xdo.move_mouse_relative(msg_recv["x"],msg_recv["y"])
+
+print 'UEILA: shutting down'
