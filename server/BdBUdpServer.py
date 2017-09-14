@@ -80,7 +80,7 @@ class BdBUdpServer:
         if 'id' in msg_recv:
             if msg_recv['id'] == ID_STOP:
                 self.state = STATE_LINKING
-                print 'UEILA: closing link'
+                print 'Link closed'
             else:
                 self.process_command(msg_recv)
 
